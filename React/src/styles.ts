@@ -52,6 +52,30 @@ width: 100%;
 &:hover{
     backgroud-color: #ffffff52;
 }
+`
+export const NewItemFormContainer = styled.div`
+max-width:300px;
+display: flex;
+flex-direction: column;
+width: 100%;
+align-item: flex-start;
+`
 
+export const NewItemButton = styled.button`
+background-color: #5acc44;
+borde-radius: 3px;
+bord: nome;
+box-shodow: none;
+color: #fff;
+padding: 6px 12 px;
+text-alig: center;
+`
 
+export const NewItemInput = styled.input`
+border-radius: 3px;
+border: none;
+box-shodow: #091e4240 0px 1px 0px 0px;
+margin-battom: 0.5rem;
+padding: 0.5rem 1rem;
+width: 100;
 `
